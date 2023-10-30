@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Practical for ITProfit</title>
+    </head>
+    <body>
+        <form id="feedback_form">
+            <div class="flex">
+                <div class="title">
+                    <p>Feedback Form</p>
+                </div>
+
+                <div class="field">
+                    <input
+                        data-required="true"
+                        id="first_name"
+                        type="text"
+                        name="first_name"
+                        autocomplete="off"
+                    />
+                    <label for="first_name" class="label_wrapper">
+                        <span class="label_text"> First Name </span>
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input
+                        data-required="true"
+                        id="email"
+                        type="email"
+                        name="email"
+                        autocomplete="off"
+                    />
+                    <label for="email" class="label_wrapper">
+                        <span class="label_text"> Email </span>
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input
+                        data-required="true"
+                        id="phone"
+                        type="text"
+                        name="phone"
+                        autocomplete="off"
+                        placeholder="+375(__) ___-__-__"
+                    />
+                    <label for="phone" class="label_wrapper">
+                        <span class="label_text"> Phone </span>
+                    </label>
+                </div>
+
+                <textarea
+                    data-required="true"
+                    id="message_textarea"
+                    placeholder="Typing your message here..."
+                    spellcheck="false"
+                    wrap="off"
+                ></textarea>
+
+                <button>Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
